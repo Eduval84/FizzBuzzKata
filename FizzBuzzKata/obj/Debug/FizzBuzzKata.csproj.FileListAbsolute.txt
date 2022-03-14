@@ -1,0 +1,7 @@
+C:\Users\evalderrama\source\Cursos\Exeal\FizzBuzzKata\FizzBuzzKata\bin\Debug\FizzBuzzKata.exe.config
+C:\Users\evalderrama\source\Cursos\Exeal\FizzBuzzKata\FizzBuzzKata\bin\Debug\FizzBuzzKata.exe
+C:\Users\evalderrama\source\Cursos\Exeal\FizzBuzzKata\FizzBuzzKata\bin\Debug\FizzBuzzKata.pdb
+C:\Users\evalderrama\source\Cursos\Exeal\FizzBuzzKata\FizzBuzzKata\obj\Debug\FizzBuzzKata.csproj.AssemblyReference.cache
+C:\Users\evalderrama\source\Cursos\Exeal\FizzBuzzKata\FizzBuzzKata\obj\Debug\FizzBuzzKata.csproj.CoreCompileInputs.cache
+C:\Users\evalderrama\source\Cursos\Exeal\FizzBuzzKata\FizzBuzzKata\obj\Debug\FizzBuzzKata.exe
+C:\Users\evalderrama\source\Cursos\Exeal\FizzBuzzKata\FizzBuzzKata\obj\Debug\FizzBuzzKata.pdb

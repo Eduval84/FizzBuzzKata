@@ -1,4 +1,5 @@
 using System;
+using FizzBuzzKata;
 using Xunit;
 
 namespace FizzBuzzTest

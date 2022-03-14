@@ -1670,6 +1670,15 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "FizzBuzzKata/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/FizzBuzzKata.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FizzBuzzKata.dll": {}
+        }
       }
     }
   },
@@ -5906,10 +5915,16 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "FizzBuzzKata/1.0.0": {
+      "type": "project",
+      "path": "../FizzBuzzKata/FizzBuzzKata.csproj",
+      "msbuildProject": "../FizzBuzzKata/FizzBuzzKata.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "FizzBuzzKata >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "coverlet.collector >= 3.0.2",
       "xunit >= 2.4.1",
@@ -5950,7 +5965,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\evalderrama\\source\\Cursos\\Exeal\\FizzBuzzKata\\FizzBuzzKata\\FizzBuzzKata.csproj": {
+              "projectPath": "C:\\Users\\evalderrama\\source\\Cursos\\Exeal\\FizzBuzzKata\\FizzBuzzKata\\FizzBuzzKata.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
