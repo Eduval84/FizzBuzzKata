@@ -20,5 +20,12 @@ namespace FizzBuzzTest
             var result = FizzBuzz.Generate(2);
             Assert.Equal("2",result);
         }
+
+        [Fact]
+        public void GetFizz()
+        {
+            var result = FizzBuzz.Generate(3);
+            Assert.Equal("Fizz", result);
+        }
     }
 }
