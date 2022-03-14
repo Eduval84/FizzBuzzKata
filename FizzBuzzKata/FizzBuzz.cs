@@ -8,7 +8,7 @@ namespace FizzBuzzKata
         {
         }
 
-        public static string Generate(int i)
+        public static string Generate(int num)
         {
             return "1";
         }

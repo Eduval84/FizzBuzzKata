@@ -9,7 +9,8 @@ namespace FizzBuzzTest
         [Fact]
         public void Get1()
         {
-            Assert.Equal("1", FizzBuzz.Generate(1));
+            var result = FizzBuzz.Generate(1);
+            Assert.Equal("1", result);
         }
     }
 }
