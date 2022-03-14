@@ -10,7 +10,9 @@ namespace FizzBuzzKata
 
         public static string Generate(int num)
         {
-            return "1";
+            if(num == 1)
+                return "1";
+            return "2";
         }
     }
 }
