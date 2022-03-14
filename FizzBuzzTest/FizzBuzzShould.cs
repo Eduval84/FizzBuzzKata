@@ -34,12 +34,11 @@ namespace FizzBuzzTest
             var result = FizzBuzz.Generate(4);
             Assert.Equal("4", result);
         }
-
-
+        
         [Fact]
         public void GetBuzzFor5g()
         {
-            var result = FizzBuzz.Generate(4);
+            var result = FizzBuzz.Generate(5);
             Assert.Equal("Buzz", result);
         }
     }

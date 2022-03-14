@@ -4,3 +4,4 @@ C:\Users\evalderrama\source\Cursos\Exeal\FizzBuzzKata\FizzBuzzKata\bin\Debug\Fiz
 C:\Users\evalderrama\source\Cursos\Exeal\FizzBuzzKata\FizzBuzzKata\obj\Debug\FizzBuzzKata.csproj.CoreCompileInputs.cache
 C:\Users\evalderrama\source\Cursos\Exeal\FizzBuzzKata\FizzBuzzKata\obj\Debug\FizzBuzzKata.exe
 C:\Users\evalderrama\source\Cursos\Exeal\FizzBuzzKata\FizzBuzzKata\obj\Debug\FizzBuzzKata.pdb
+C:\Users\evalderrama\source\Cursos\Exeal\FizzBuzzKata\FizzBuzzKata\obj\Debug\FizzBuzzKata.csproj.AssemblyReference.cache
