@@ -10,7 +10,7 @@ namespace FizzBuzzKata
 
         public static string Generate(int i)
         {
-            throw new NotImplementedException();
+            return "1";
         }
     }
 }
