@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace FizzBuzzKata
 {
@@ -6,12 +7,20 @@ namespace FizzBuzzKata
     {
         static void Main(string[] args)
         {
+            int num = 0;
+            string text;
+
+            for (num = 1; num <= 100; num++)
+            {
+                text= Generate(num);
+                Console.WriteLine(text);
+            }
         }
 
         public static string Generate(int num)
         {
             if (CheckIfNumIsDivisibleBy3And3(num, out var fizzbuzz)) return fizzbuzz;
-            if (CheckIfNumIsDibisibleBy3(num, out var Fizz)) return Fizz;
+            if (CheckIfNumIsDibisibleBy3(num, out var fizz)) return fizz;
             if (CheckIfNumIsDivisibleBy5(num, out var buzz)) return buzz;
             return num.ToString();
         }
