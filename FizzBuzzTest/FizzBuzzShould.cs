@@ -7,46 +7,45 @@ namespace FizzBuzzTest
 {
     public class FizzBuzzShould
     {
-        [Fact]
-        public void Get1AsString()
+        [Theory]
+        [InlineData(1,"1")]
+        [InlineData(2, "2")]
+        [InlineData(4, "4")]
+        public void ReturnNumberAsString(int input, string expectedOutput)
         {
-            var result = FizzBuzz.Generate(1);
-            Assert.Equal("1", result);
+            var result = FizzBuzz.Generate(input);
+            Assert.Equal(expectedOutput, result);
         }
 
-        [Fact]
-        public void Get2AsString()
+
+        [Theory]
+        [InlineData(3,"Fizz")]
+        [InlineData(6, "Fizz")]
+        [InlineData(9, "Fizz")]
+        public void GetFizzForNumsDivisiblesBy3(int input, string expectedOutput)
         {
-            var result = FizzBuzz.Generate(2);
-            Assert.Equal("2",result);
+            var result = FizzBuzz.Generate(input);
+            Assert.Equal(expectedOutput, result);
         }
 
-        [Fact]
-        public void GetFizzFor3()
+
+        [Theory]
+        [InlineData(5,"Buzz")]
+        [InlineData(10, "Buzz")]
+        public void GetBuzzForNumsDivisibleBy5(int input, string expectedOutput)
         {
-            var result = FizzBuzz.Generate(3);
-            Assert.Equal("Fizz", result);
+            var result = FizzBuzz.Generate(input);
+            Assert.Equal(expectedOutput, result);
         }
 
-        [Fact]
-        public void Get4AsString()
-        {
-            var result = FizzBuzz.Generate(4);
-            Assert.Equal("4", result);
-        }
-        
-        [Fact]
-        public void GetBuzzFor5()
-        {
-            var result = FizzBuzz.Generate(5);
-            Assert.Equal("Buzz", result);
-        }
+        [Theory]
+        [InlineData(15,"FizzBuzz")]
+        [InlineData(30, "FizzBuzz")]
 
-        [Fact]
-        public void GetFizzBuzzFor15()
+        public void GetFizzBuzzForNumbersDibisiblesBy3And5(int input, string expectedOutput)
         {
-            var result = FizzBuzz.Generate(15);
-            Assert.Equal("FizzBuzz", result);
+            var result = FizzBuzz.Generate(input);
+            Assert.Equal(expectedOutput, result);
         }
     }
 }
