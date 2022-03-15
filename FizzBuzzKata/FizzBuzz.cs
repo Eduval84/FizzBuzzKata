@@ -8,12 +8,10 @@ namespace FizzBuzzKata
         static void Main(string[] args)
         {
             int num = 0;
-            string text;
 
             for (num = 1; num <= 100; num++)
             {
-                text= Generate(num);
-                Console.WriteLine(text);
+                Console.WriteLine(Generate(num));
             }
         }
 
